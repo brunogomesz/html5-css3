@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+
+/*
+
+    em HTML é id = em CSS é #
+    em HTML é class = em CSS é .
+
+    id usado para unico 
+    class usado para multiplas 
+
+    ctrl + shift + p para envelopar - seleciona um texto e aperta ctrl + shift + p...
+
+*/
+body{
+   background-color: rgb(206, 255, 203); 
+   font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h1#principal{
+    text-align: center;
+    background-color: rgb(4, 109, 0);
+    color: white;
+}
+
+h1{
+    color: rgb(4, 109, 0);
+}
+
+h2{
+    color:rgb(73, 109, 71)
+}
+
+.basico{
+    color: #3c805e;
+}
+
+.intermediario{
+    color:#80793c;
+}
+
+.avancado{
+    color: #803c3c;
+}
+
+.destaque {
+    background-color: #c0c03296;
+}
