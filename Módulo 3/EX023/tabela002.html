@@ -32,6 +32,16 @@
             color: white;
         }
 
+        tbody > tr:nth-child(odd) { /* 2n-1 / odd para inverter o zebrado no lugar de 2n*/
+            background-color: rgb(211, 149, 149);
+           /* font-weight: bold;*/
+        }
+
+        tbody > tr:nth-child(even) { /* 2n / odd para inverter o zebrado no lugar de 2n*/
+            background-color: lightgray;
+           /* text-decoration: underline;*/
+        }
+
         td.num {
             text-align: center;
         }
