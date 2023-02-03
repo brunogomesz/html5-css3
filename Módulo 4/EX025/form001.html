@@ -13,7 +13,17 @@
 </head>
 <body>
     <h1>Meu primeiro formulário</h1>
-    <form action="cadastro.php" autocomplete="off">
+    <!--mehtod post, não apresenta os dados do formulário na barra de endereço, mas não torna mais seguro do que o get
+    
+    method get
+    - method get torna a url compartilhável
+    - quando envia dados por get, só pode enviar até 3000bytes
+    - não recomendável para dados sensíveis como senha, cartão de crédito, envios de foto, etc
+
+    aprender sobre https para envio de dados sensíveis
+    
+    -->
+    <form action="cadastro.php" method="post" autocomplete="off">
         <p><label for="inome">Nome:</label> 
             <input type="text" name="nome" id="inome"></p>
         <p><label for="isobrenome">Sobrenome:</label> 
